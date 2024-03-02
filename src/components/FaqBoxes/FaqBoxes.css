@@ -1,0 +1,40 @@
+.headline-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headline-box h2 {
+  font-size: 1.8rem;
+}
+
+.headline-box img {
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
+.hidden-box {
+  display: none;
+}
+
+.shown-box {
+  display: block;
+}
+.shown-box p {
+  display: block;
+  font-size: 1.7rem;
+  color: gray;
+  width: 90%;
+}
+
+@media only screen and (max-width: 768px) {
+  .headline-box img {
+    width: 4vw;
+    height: 4vw;
+  }
+}
+@media only screen and (max-width: 567px) {
+  .headline-box img {
+    width: 6vw;
+    height: 6vw;
+  }
+}

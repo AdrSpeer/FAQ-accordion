@@ -1,0 +1,38 @@
+.faq {
+  background-color: rgba(179, 127, 228, 0.228);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.faq h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+.faq article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding: 2vw;
+  border-radius: 1.5rem;
+  width: 45vw;
+  gap: 1vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .faq article {
+    padding: 5vw;
+    width: 85vw;
+    gap: 3vw;
+  }
+}
+@media only screen and (max-width: 567px) {
+  .faq article {
+    padding: 4vw;
+    width: 95vw;
+    gap: 3vw;
+  }
+}
